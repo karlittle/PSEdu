@@ -2,7 +2,7 @@
 Import-Module ActiveDirectory
 
 # Path to adusers spreadsheet
-$csvfile = 'C:Users\k.tinio\Documents\adusers.csv'
+$csvfile = 'C:\Users\k.tinio\Documents\adusers.csv'
 
 # Import User Data
 $csv = Import-CSV -Path $csvfile
